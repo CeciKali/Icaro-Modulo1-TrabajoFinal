@@ -3,21 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Estudio de diseño gráfico">
+    <meta name="keywords" content="diseño, editorial, gráfica, identidad corporativa">
+     <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- Enlace a la hoja de estilos -->
     <link rel="stylesheet" href="../css/styles.css" />
-    <title>Productos</title>
+    <title>Cecikali. Hola diseño</title>
   </head>
   <body>
     <!-- header -->
     <header>
       <!-- Menu de navegación -->
-      <nav>
-        <ul>
-          <li><a href="../index.html">inicio</a></li>
-          <li><a href="#">productos</a></li>
-          <li><a href="./contacto.html">contacto</a></li>
+      <nav class="container">
+        <div class="d-flex justify-content-between align-items-center"> 
+          <div>
+          <img width="177px"  src="../assets/cecikali_logo.png" alt="cecikali_logo">
+          </div>
+        <ul class="nav gap-4">
+          <li class="nav-item"><a class="text-white" href="../index.html">INICIO</a></li>
+          <li class="nav-item"><a <a class="text-white" href="#">SOY</a></li>
+          <li class="nav-item"><a <a class="text-white" href="./contacto.html">CONTACTO</a></li>
         </ul>
+        </div>
       </nav>
     </header>
+
+    <main class="container">
+
+    <section  class="row">
+
+
+      <!-- Tarjeta de presentacion  -->
+      <div class="col-md-3">
+        <div class="card product-card h-100">
+          <img 
+          src="../assets/cecikali_foto.png" 
+          class="card-img-top"
+          alt="foto">
+          <div class="card__boddy">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Soy Ceci Kalinowski</strong></li>
+            <li class="list-group-item">Licenciada en Diseño Gráfico</li>
+            <li class="list-group-item">Argentina</li>
+          </ul>      
+          </div>
+        </div>
+      </div>  
+      <div class="col-md-3">
+        <h3 class="text-left mb-4">Experiencia</h3>
+        <ol class="reasons-list">
+          <li>
+            <strong>Identidad Corporativa:</strong> Branding / Manuales de marca.
+          </li>
+          <li>
+            <strong>Diseño Editorial:</strong> Libros / Revistas / Balances
+          </li>
+          <li><strong>Diseño Digital:</strong> Sitio web y redes sociales</li>
+          <li>
+            <strong>Gráfica:</strong> Folletos / Cartelería </li>
+        </ol>
+      </div>
+
+      <div class="col-md-6">
+
+        <h3 class="text-left mb-4">¿Cómo trabajo?</h3>
+        <ul>
+          <li>
+            <strong>Comienza con alguien que necesita “contar algo”.</strong> Y allí, con mi profesión elegida, “estoy”: para escuchar, leer entre líneas, para encontrar la esencia de ese mensaje, lo dicho y lo que aún no ha podido traducir. Observo el entorno, porque todo relato se incorpora a un paisaje, y ¡qué importante es conocerlo! Conversamos, conectamos ideas, formamos equipo. Elegimos los cómo, damos forma y sentido.
+            Y así, comenzamos a narrar con imágenes.
+          </li>
+        </ul>
+
+      </div>
+
+    </section>
+    </main>
+
+    <!-- Pie de página  -->
+   <footer>
+   <div class="container">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="col-md-6">
+        <h5>Diseño con sentido</h5>
+      </div>
+
+      <div class="col-md-6 text-end">
+      <a target="_blank" class="text-white" href="https://www.linkedin.com/in/cecikali/">+ Sobre mí</a>
+      </div>
+   </div>
+  </div>
+    </footer>
+
   </body>
 </html>

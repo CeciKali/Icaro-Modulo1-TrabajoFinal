@@ -9,7 +9,6 @@
 /* ***Colores ****/
 :root {
   --color-primary: #4d7f71;
-  --color-secondary: #4d7f71;
   --color-dark: #1a1a1a;
   --color-light: #ffffff;
  
@@ -47,9 +46,17 @@ h1 {
   transition: opacity 1s 
 }
 
+
+h3 {
+  padding-top: 30px;
+  color:var(--color-primary); 
+  font-family: Bellota;
+
+}
+
 p {
   font-family: Barlow;
-  font-size: 25px;
+  font-size: 22px;
   color: var(--color-dark);
   padding-bottom: 20px;
 }
@@ -108,6 +115,16 @@ footer {
 card__botton {
   font-family: Barlow;
 }
+
+/* ===== Form ===== */
+
+.mb-3 {
+  font-family: Barlow;
+}
+
+/* ===== LISTAS ===== */
+
+
 
 /* ===== Media Queries - Diseño Responsivo ===== */
 
